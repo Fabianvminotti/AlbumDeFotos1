@@ -31,11 +31,12 @@
   width: 350px;
   filter: grayscale(0%);
   transition: 0.75s;
+  transform: scale(1.1);
 }
 
 .Cont_item p{
 	background-color: gray;
-	font-family: sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	margin: 0;
 	padding: 30px;
 	text-align: center;
@@ -44,7 +45,7 @@
 .Cont_item:hover p {
   background-color: black;
   color: white;
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
   margin: 0;
   padding: 30px;
   text-align: center;
@@ -66,11 +67,6 @@
         vertical-align: middle;
         padding: 50px;
     }
-
-
-
-
-
 
 
 @media only screen and (min-width: 701px){
