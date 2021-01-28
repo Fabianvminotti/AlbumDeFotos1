@@ -20,11 +20,17 @@
 	width: 350px;
 	height: 600px;
 	overflow: hidden;
-
 }
 
 .Cont_img img{
 	width: 350px;
+  filter: grayscale(75%);
+}
+
+.Cont_img:hover img{
+  width: 350px;
+  filter: grayscale(0%);
+  transition: 0.75s;
 }
 
 .Cont_item p{
@@ -34,6 +40,18 @@
 	padding: 30px;
 	text-align: center;
 }
+
+.Cont_item:hover p {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+  transition: 0.75s;
+}
+
+
 
 
 
@@ -74,8 +92,8 @@
             text-align: center;
         }
 
-        .item:hover {
-         background-color: #AAACAD;
+        .item:hover{
+         background-color: gray;
         }
 
         
